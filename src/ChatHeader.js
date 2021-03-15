@@ -9,8 +9,7 @@ import HelpOutlineIcon from '@material-ui/icons/HelpOutline';
 
 function ChatHeader() {
   return (
-    <div className = 'chatHeader'>
-      <h3>I am the Header</h3>     
+    <div className = 'chatHeader'>     
       <div className="chatHeader__left">
         <h3>
           <span className="chatHeader__hash">
@@ -24,7 +23,7 @@ function ChatHeader() {
         <NotificationsIcon />
         <EditLocationIcon />
         <PeopleAltIcon />
-        <div className="chatHeader__searcj">
+        <div className="chatHeader__search">
           <input placeholder= 'Search' />
           <SearchIcon />
         </div>
