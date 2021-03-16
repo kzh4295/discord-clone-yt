@@ -12,14 +12,14 @@ function Chat() {
       <ChatHeader />
 
       <div className="chat__messages">
-
+        {/* <Message /> */}
       </div>
 
       <div className="chat__input">
         <AddCircleIcon fontSize = "large" />
         <form>
           <input placeholder= {"Message #TESTCHANNEL"} />
-          <button className="chat_inputButton" type="submit">
+          <button className="chat__inputButton" type="submit">
             Send Message
           </button>
         </form>

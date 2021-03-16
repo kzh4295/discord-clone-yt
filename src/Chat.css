@@ -25,8 +25,8 @@
 .chat__input > form  > input {
   padding: 15px;
   background: transparent;
-  width: 100%;
   border: none;
+  width: 100%;
   outline-width: 0;
   color: white;
   font-size: large;
@@ -43,3 +43,5 @@
 .chat__inputIcons > .MuiSvgIcon-root {
   padding: 5px;
 }
+
+  
