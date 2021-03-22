@@ -34,8 +34,8 @@ function Chat() {
   const sendMessage = (e) => {
     e.preventDefault();
 
-    db.collection("channels").doc(channelId).collection("messages").
-    add({
+    db.collection("channels").doc(channelId).collection("messages")
+    .add({
       timestamp: firebase.firestore.FieldValue.serverTimestamp(),
       message: input,
       user: user,
@@ -49,7 +49,11 @@ function Chat() {
 
       <div className="chat__messages">
         {messages.map((message)=> (
-          <Message />
+          <Message 
+            timestamp={message.timestamp}
+            message={message.message}
+            user={message.user}
+            />
         ))}
       </div>
 
