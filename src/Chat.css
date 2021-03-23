@@ -8,6 +8,16 @@
 
 .chat__messages {
   flex: 1;
+  overflow: scroll;
+}
+
+.chat__messages::-webgit-scrollbar {
+  display: none;
+}
+
+.chat__messages {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }
 
 .chat__input {
