@@ -2,6 +2,7 @@
 - react
 - material-ui
 - node.js
+- redux
 
 # language
 - javascript
